@@ -1,0 +1,17 @@
+[
+    {
+      "purchaseTimestamp": "2025-08-20T10:15:30Z",
+      "amountUSD": 100,
+      "status": "completed"
+    },
+    {
+      "purchaseTimestamp": "2025-09-05T18:30:00Z",
+      "amountUSD": 250,
+      "status": "completed"
+    },
+    {
+      "purchaseTimestamp": "2025-09-18T11:20:11Z",
+      "amountUSD": 150,
+      "status": "pending"
+    }
+  ]
