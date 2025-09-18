@@ -1,0 +1,29 @@
+{
+    "vipLevel": "V2",
+    "rewards": {
+      "current": 850.50,
+      "total": 2150.50,
+      "referral": 312.40,
+      "downline": 378.00,
+      "management": 160.10
+    },
+    "team": {
+      "directInvites": 18,
+      "totalMembers": 168
+    },
+    "referralLink": "https://btcx.pizza/join?ref=k8f7b2m9",
+    "inviteHistory": [
+      {
+        "address": "0x1Db3439a222C519ab44bb1144FC28167b4Fa6EE6",
+        "joinTimestamp": "2025-09-16T14:25:10Z"
+      },
+      {
+        "address": "0x95222290DD7278Aa3Ddd389Cc1E1d165CC4BAfe5",
+        "joinTimestamp": "2025-09-17T08:40:02Z"
+      },
+      {
+        "address": "0x2B5AD5c4795c026514f8317c7a215E218DcCD6cF",
+        "joinTimestamp": "2025-09-18T11:55:43Z"
+      }
+    ]
+  }
