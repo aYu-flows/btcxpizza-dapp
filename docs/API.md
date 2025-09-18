@@ -12,8 +12,8 @@
 **返回数据:**
 ```json
 {
-  "status": "completed", --> String: 用户当前状态。可能的值: "not_participated", "pending_airdrop", "completed", "max_profit_reached"
-  "btcAddress": "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh" // String: 用户上次参与时填写的BTC钱包地址，若首次参与则为空字符串 ""
+  "status": "completed" --> String: 用户当前状态。可能的值: "not_participated", "pending_airdrop", "completed", "max_profit_reached",
+  "btcAddress": "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh" --> String: 用户上次参与时填写的BTC钱包地址，若首次参与则为空字符串 ""
 }
 ```
 
