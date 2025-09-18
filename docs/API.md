@@ -12,8 +12,8 @@
 **返回数据:**
 ```json
 {
-  "status": "completed" --> String: 用户当前状态。可能的值: "not_participated", "pending_airdrop", "completed", "max_profit_reached",
-  "btcAddress": "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh" --> String: 用户上次参与时填写的BTC钱包地址，若首次参与则为空字符串 ""
+  "status": "completed", // String: 用户当前状态。可能的值: "not_participated", "pending_airdrop", "completed", "max_profit_reached"
+  "btcAddress": "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh" // String: 用户上次参与时填写的BTC钱包地址，若首次参与则为空字符串 ""
 }
 ```
 
@@ -80,7 +80,7 @@
 **返回数据:**
 ```json
 {
-  "vipLevel": "V2", // String: 用户当前的管理奖等级 (例如 "V1", "V2", ..., "V7")
+  "vipLevel": "V2", // String: 用户当前的管理奖等级 (例如 "V0","V1", "V2", ..., "V7")
   "rewards": { // Object: 包含所有奖励相关数据的对象
     "current": 850.50, // Number: 当前奖励。当前生命周期的累计收益，用于判断5倍出局进度
     "total": 2150.50, // Number: 历史总奖励。用户所有生命周期累计的总收益
