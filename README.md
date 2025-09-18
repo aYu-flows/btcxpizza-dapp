@@ -35,7 +35,7 @@ npm install -g json-server
 **3. 启动 Mock Server**
 在项目**根目录**下，运行以下命令：
 ```bash
-json-server --watch mock-server/db.json --routes mock-server/routes.json
+json-server --watch mock-api/db.json --routes mock-api/routes.json
 ```
 
 **4. 验证**
@@ -43,8 +43,8 @@ json-server --watch mock-server/db.json --routes mock-server/routes.json
 ```
   \{^_^}/ hi!
 
-  Loading mock-server/db.json
-  Loading mock-server/routes.json
+  Loading mock-api/db.json
+  Loading mock-api/routes.json
   Done
 
   Resources
