@@ -105,3 +105,22 @@
   ]
 }
 ```
+
+---
+
+## 5. 通过推荐码获取推荐人地址
+
+通过用户分享的8位推荐码，查询并返回推荐人的钱包地址。
+
+- **Endpoint**: `GET /api/user/getReferrerAddress`
+- **说明**: 用于用户参与空投时，为 `participateAirdrop()` 合约方法提供 `referrer` 参数，从而在链上绑定推荐关系。前端需要在调用合约前先调用此接口。
+- **Query 参数**:
+  - `code` (string, required): 用户通过链接传入的8位推荐码。
+  - **示例**: `/api/user/getReferrerAddress?code=k8f7b2m9`
+
+**返回数据:**
+```json
+{
+  "referrerAddress": "0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B" // String: 推荐码对应的推荐人钱包地址。如果code无效，可返回 null
+}
+```
