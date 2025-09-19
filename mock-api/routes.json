@@ -2,5 +2,6 @@
   "/api/user/status": "/status",
   "/api/user/getReferralInfo": "/getReferralInfo",
   "/api/user/getPurchaseHistory": "/getPurchaseHistory",
-  "/api/user/getUserDashboard": "/getUserDashboard"
+  "/api/user/getUserDashboard": "/getUserDashboard",
+  "/api/user/getReferrerAddress": "/getReferrerAddress"
 }
