@@ -52,6 +52,7 @@ json-server --watch mock-api/db.json --routes mock-api/routes.json
   http://localhost:3000/getReferralInfo
   http://localhost:3000/getPurchaseHistory
   http://localhost:3000/getUserDashboard
+  http://localhost:3000/getReferrerAddress
 
   Home
   http://localhost:3000
@@ -79,3 +80,7 @@ Mock Server 启动后，以下API端点将可用：
 
 - **获取用户中心数据**:
   `GET` `http://localhost:3000/api/user/getUserDashboard`
+
+- **通过推荐码获取推荐人地址**:
+  `GET` `http://localhost:3000/api/user/getReferrerAddress`
+
